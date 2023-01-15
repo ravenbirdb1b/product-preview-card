@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+.productpage-body{
+    margin: 0px;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+.product-body-wrapper{
+    background-color: hsl(0, 0%, 100%);
+    height: 60%;
+    width: 40%;
+    display: flex;
+    border-radius: 10px;
+}
+.product-image-wrapper{
+    height: 100%;
+    width: 50%;
+   
+    
+}
+.product-img { 
+    border-radius: 10px 0px 0px 10px;
+    width:100%;
+max-height:100%;
+}
+.product-content{
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.product-content-infoheader{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 10px;
+    font-size: 13px;
+}
+
+.product-content-header{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 38px;
+    
+    padding: 20px 30px 20px 0px;
+}
+
+.product-content-body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+    padding: 15px 20px 15px 0px;
+    font-size: 15px;
+}
+.tag-wrapper{
+    padding: 15px 20px 15px 0px;
+    display: flex;
+}
+.price-tag{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin-right: 25px;
+    
+}
+.price-tag-cut{
+    text-decoration: line-through;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.btn-wrapper{
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px 15px 0px;
+    margin: 25px 10px 0px 0px;
+}
+.cart-icon-wrapper{
+    display: flex;
+}
+.cart-icon{
+    font-size: 20px;
+}
+.btn-text{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
